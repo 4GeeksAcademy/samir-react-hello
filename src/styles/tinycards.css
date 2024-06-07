@@ -1,0 +1,19 @@
+
+.card-photo {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-lg {
+    max-height: 300px !important;
+  }
+
+  .card-text {
+    overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  height: 4.5em;
+  }
