@@ -35,6 +35,7 @@ function Navbar() {
         )}
         </div>
       </nav>
+      {showDropdown && <div className="navbar-spacer"></div>}
     </BrowserRouter>
   );
 }
