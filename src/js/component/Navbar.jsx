@@ -8,7 +8,7 @@ function Navbar() {
   const [showDropdown, setShowDropdown] = useState(false);
 
   const handleToggleDropdown = () => {
-    setShowDropdown(!showDropdown);
+    setShowDropdown(prevShowDropdown => !prevShowDropdown);
   };
 
   return (
